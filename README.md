@@ -1,8 +1,8 @@
-# 📨 Phishing Email Analysis – TryHackMe (Case 1)
+# Phishing Email Analysis – TryHackMe (Case 1)
 
-This project is a walkthrough of **Phishing Email Analysis Case 1** on [TryHackMe](https://tryhackme.com/), where I analyze a suspicious email using real-world tools and techniques. This is part of my cybersecurity learning and hands-on experience in email threat investigation.
+This project is a walkthrough of **Phishing Email Analysis Case 1** on [TryHackMe](https://tryhackme.com/), where I analyze a suspicious email using CyberChef. This is part of my cybersecurity learning and hands on experience in email threat investigation.
 
-## 🔍 Objective
+## Objective
 
 Analyze a phishing email to:
 - Extract key indicators of compromise (IOCs)
@@ -10,19 +10,20 @@ Analyze a phishing email to:
 - Deobfuscate links and attachments
 - Understand and explain why the email is malicious
 
-## 🧰 Tools Used
+## Tools Used
+Cyberchef, Notepad
 
 - **TryHackMe Phishing Email Analysis Lab**
 - **PhishTool** – for email header inspection and IOC extraction
 - **Header analysis** – to detect spoofing and suspicious domains
 - **URL & IP deobfuscation** (defanging analysis)
-- **Threat intelligence platforms** (e.g., VirusTotal, AbuseIPDB)
+  
 
-## 🛠️ What I Did
+##  What I Did
 
 1. **Inspected raw email headers**
    - Checked `Received-SPF` and `DKIM` results
-   - Noted suspicious sender and reply-to mismatch
+   - Noted suspicious sender and reply-to email not matching
 
 2. **Defanged and analyzed URLs**
    - Identified shortened links and resolved them to final malicious domains
@@ -41,21 +42,21 @@ Analyze a phishing email to:
    - Email is confirmed to be phishing
    - Attempted credential harvesting via fake login page
 
-## 🎥 Demo Video
+## Demo Video
 -Listed Above
 
-## 📁 Files Included
+## Files Included
 
-- `phishing_analysis_demo.mp4` – Recorded demo of the analysis
-- `ioc_report.txt` – Summary of IOCs extracted (if available)
+- Recorded demo of the analysis
+  
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 - Always verify SPF/DKIM/DMARC alignment
 - Shortened URLs are a red flag – always unshorten and inspect
 - Email headers reveal a lot about sender legitimacy
-- Tools like PhishTool can speed up investigation and automate IOC extraction
+- Tools like CyberChef can speed up investigation and help automate IOC extracts
 
-## 📚 About Me
+## About Me
 
-I’m a cybersecurity student currently doing an **IAM internship with the City of Dallas**, learning hands-on skills in identity security, phishing analysis, and access management. This project is part of my growing portfolio in **offensive and defensive security**.
+I’m a cybeesecurity intern currently doing an **IAM internship with the City of Dallas**, learning hands on skills in identity security, phishing analysis, and access management. This project is part of my growing portfolio in cybersecurity
